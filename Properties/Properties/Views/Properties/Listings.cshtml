@@ -1,0 +1,23 @@
+﻿@model Properties.Models.PropertiesClass
+@{
+	ViewBag.Title = "Listings";
+}
+
+<h2>Viewings</h2>
+
+<li>@Html.ActionLink("Mansion", "Mansion", "Properties")</li>
+<li>@Html.ActionLink("House", "DetachedHouse", "Properties")</li>
+<li>@Html.ActionLink("House", "SemiDetachedHouse", "Properties")</li>
+
+@*<h2>
+	Id:@Model.Id <br />
+	Country:@Model.Country <br />
+	Location:@Model.Location<br />
+	Acres ^2:@Model.SquareAcres <br />
+	Price:@Model.PropPrice <br />
+	Type:@Model.PropType<br />
+	Bedrooms:@Model.NumOfBedrooms <br />
+	Bathrooms:@Model.NumOfBathrooms <br />
+	Floors:@Model.NumOfFloors<br />
+
+</h2>*@
